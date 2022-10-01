@@ -15,7 +15,7 @@
       "files": ["pnpm-lock.yaml"],
       "options": {
         "singleQuote": true,
-        "printWidth": -1
+        "printWidth": 500
       }
     }
   ]
