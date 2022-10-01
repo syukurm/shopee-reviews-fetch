@@ -1,0 +1,44 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/strict",
+    "plugin:github/recommended",
+    "plugin:github/typescript",
+    "plugin:regexp/recommended",
+    "plugin:jsdoc/recommended",
+    "auto"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["github", "regexp", "jsdoc", "etc"],
+  "rules": {
+    "no-await-in-loop": "off",
+    "no-plusplus": "off",
+
+    "github/array-foreach": "off",
+
+    "i18n-text/no-en": "off",
+
+    "import/extensions": "off",
+    "filenames/match-regex": "off",
+    "no-secrets/no-secrets": "off",
+    "sonarjs/cognitive-complexity": "off",
+
+    "etc/no-assign-mutated-array": "error",
+    "etc/no-const-enum": "error",
+    "etc/no-deprecated": "error",
+    "etc/no-implicit-any-catch": "error",
+    "etc/no-internal": "error",
+    "etc/no-misused-generics": "error",
+    "etc/prefer-interface": "error",
+    "etc/throw-error": "error",
+    "etc/underscore-internal": "error"
+  },
+  "ignorePatterns": ["**/node_modules/**", "dist/**/*"]
+}

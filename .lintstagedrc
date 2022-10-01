@@ -1,0 +1,6 @@
+{
+  "*": "prettier -uw",
+  "*.ts": [
+    "eslint --fix"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "useTabs": false,
+  "printWidth": 120,
+  "semi": true,
+  "singleAttributePerLine": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": ["pnpm-lock.yaml"],
+      "options": {
+        "singleQuote": true,
+        "printWidth": -1
+      }
+    }
+  ]
+}
